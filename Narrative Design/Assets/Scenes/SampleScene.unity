@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Pierre Leduc
-  nameColor: {r: 0.21226418, g: 0.8888558, b: 1, a: 1}
+  nameColor: {r: 0.2806604, g: 0.46944517, b: 0.5, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -2291,7 +2291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Harriette Leduc
-  nameColor: {r: 0.9278468, g: 0.25, b: 1, a: 1}
+  nameColor: {r: 0.38888982, g: 0.2277056, b: 0.4056604, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -3876,7 +3876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Louise-Renee Leduc
-  nameColor: {r: 0.6247893, g: 1, b: 0.28773582, a: 1}
+  nameColor: {r: 0.3578568, g: 0.4716981, b: 0.25587398, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -4419,6 +4419,12 @@ GameObject:
   - component: {fileID: 1688515214}
   - component: {fileID: 1688515213}
   - component: {fileID: 1688515212}
+  - component: {fileID: 1688515231}
+  - component: {fileID: 1688515230}
+  - component: {fileID: 1688515232}
+  - component: {fileID: 1688515235}
+  - component: {fileID: 1688515234}
+  - component: {fileID: 1688515233}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4525,6 +4531,7 @@ MonoBehaviour:
   - {fileID: 1688515226}
   - {fileID: 1688515225}
   - {fileID: 1688515224}
+  - {fileID: 1688515232}
   - {fileID: 1688515223}
   - {fileID: 1688515222}
   - {fileID: 1688515221}
@@ -4537,6 +4544,11 @@ MonoBehaviour:
   - {fileID: 1688515216}
   - {fileID: 1688515213}
   - {fileID: 1688515212}
+  - {fileID: 1688515231}
+  - {fileID: 1688515230}
+  - {fileID: 1688515235}
+  - {fileID: 1688515234}
+  - {fileID: 1688515233}
   suppressAllAutoSelections: 0
 --- !u!114 &1688515190
 MonoBehaviour:
@@ -4607,7 +4619,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1688515189}
   selectedCommands:
-  - {fileID: 1688515212}
+  - {fileID: 1688515233}
   variables: []
   description: 
   stepPause: 0
@@ -5495,6 +5507,158 @@ MonoBehaviour:
   storyText: Not the best, the fruit basket rope broke.
   description: 
   character: {fileID: 1553969314}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1688515230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: Wow, how busy! Anyway, are you hungry?
+  description: 
+  character: {fileID: 644110024}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1688515231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  storyText: Yeah, and then she got very wet from fixing the window when it was raining,
+    so she had to have a bath.
+  description: 
+  character: {fileID: 832434047}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1688515232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.4
+  durationOLD: 0
+--- !u!114 &1688515233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  duration: 0
+  fadeOut: 1
+  targetView: {fileID: 296489160}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1688515234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: Alright, I'll get you something.
+  description: 
+  character: {fileID: 644110024}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1688515235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  storyText: Harriette nods.
+  description: 
+  character: {fileID: 1379849099}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
