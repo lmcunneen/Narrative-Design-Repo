@@ -4486,6 +4486,9 @@ GameObject:
   - component: {fileID: 1688515296}
   - component: {fileID: 1688515297}
   - component: {fileID: 1688515298}
+  - component: {fileID: 1688515301}
+  - component: {fileID: 1688515300}
+  - component: {fileID: 1688515299}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4713,6 +4716,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1688515190}
   commandList:
   - {fileID: 1688515188}
+  - {fileID: 1688515301}
   suppressAllAutoSelections: 0
 --- !u!114 &1688515192
 MonoBehaviour:
@@ -4739,9 +4743,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1688515189}
+  - {fileID: 1688515300}
   selectedCommands:
-  - {fileID: 1688515197}
+  - {fileID: 1688515299}
   variables: []
   description: 
   stepPause: 0
@@ -7222,6 +7226,77 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 2
   durationOLD: 0
+--- !u!114 &1688515299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene 5
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1688515300
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 236
+    y: 120
+    width: 111
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 112
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1688515299}
+  suppressAllAutoSelections: 0
+--- !u!114 &1688515301
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688515186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  text: Skip to Final Scene for Branching Dialogue
+  description: 
+  targetBlock: {fileID: 1688515300}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1735123951
 GameObject:
   m_ObjectHideFlags: 0
