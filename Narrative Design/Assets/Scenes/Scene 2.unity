@@ -169,7 +169,7 @@ Transform:
   m_Children:
   - {fileID: 72817108}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72817107
 GameObject:
@@ -301,7 +301,7 @@ Transform:
   m_Children:
   - {fileID: 308614741}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &136315916
 GameObject:
@@ -601,7 +601,7 @@ Transform:
   m_Children:
   - {fileID: 1316390844}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &339539080
 GameObject:
@@ -652,7 +652,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &348390015
 GameObject:
@@ -779,7 +779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &437656786
 GameObject:
@@ -827,7 +827,7 @@ Transform:
   m_Children:
   - {fileID: 544964211}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &466907033
 GameObject:
@@ -1119,7 +1119,7 @@ Transform:
   m_Children:
   - {fileID: 1502153606}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &664622533
 GameObject:
@@ -1167,7 +1167,7 @@ Transform:
   m_Children:
   - {fileID: 789919071}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &789919070
 GameObject:
@@ -1442,7 +1442,7 @@ Transform:
   m_Children:
   - {fileID: 1121635998}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970375106
 GameObject:
@@ -1785,7 +1785,7 @@ Transform:
   m_Children:
   - {fileID: 2137825043}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1139258202
 GameObject:
@@ -1833,7 +1833,7 @@ Transform:
   m_Children:
   - {fileID: 970375107}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1258463703
 GameObject:
@@ -1881,7 +1881,7 @@ Transform:
   m_Children:
   - {fileID: 1710209986}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1269526199
 GameObject:
@@ -1973,6 +1973,7 @@ GameObject:
   - component: {fileID: 1269526376}
   - component: {fileID: 1269526389}
   - component: {fileID: 1269526388}
+  - component: {fileID: 1269526390}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2067,6 +2068,7 @@ MonoBehaviour:
   - {fileID: 1269526338}
   - {fileID: 1269526337}
   - {fileID: 1269526375}
+  - {fileID: 1269526390}
   - {fileID: 1269526387}
   - {fileID: 1269526374}
   - {fileID: 1269526373}
@@ -2111,7 +2113,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1269526304}
   selectedCommands:
-  - {fileID: 1269526348}
+  - {fileID: 1269526374}
   variables: []
   description: 
   stepPause: 0
@@ -3799,14 +3801,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: ...while I make some adjustments to your piece.
+  storyText: while I make some adjustments to your piece.
   description: 
   character: {fileID: 339539081}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -4197,6 +4199,33 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1269526390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269526199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 339539081}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1316390843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4571,7 +4600,7 @@ Transform:
   m_Children:
   - {fileID: 1326462032}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1623363792
 GameObject:
@@ -4787,7 +4816,7 @@ Transform:
   m_Children:
   - {fileID: 1623363793}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1837327991
 GameObject:
@@ -4835,7 +4864,7 @@ Transform:
   m_Children:
   - {fileID: 542853487}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1845839554
 GameObject:
@@ -5127,57 +5156,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &2026364021
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2026364023}
-  - component: {fileID: 2026364022}
-  m_Layer: 0
-  m_Name: Louise-Renee Leduc
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2026364022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026364021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: Louise-Renee Leduc
-  nameColor: {r: 0.3578568, g: 0.4716981, b: 0.25587398, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: Fruit Seller / Pierre's Wife / Revolutionary
---- !u!4 &2026364023
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026364021}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2081443662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5224,7 +5202,7 @@ Transform:
   m_Children:
   - {fileID: 136315917}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2083702075
 GameObject:
@@ -5272,7 +5250,7 @@ Transform:
   m_Children:
   - {fileID: 843986111}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135448795
 GameObject:
