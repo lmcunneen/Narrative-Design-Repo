@@ -4463,7 +4463,6 @@ GameObject:
   - component: {fileID: 1688515291}
   - component: {fileID: 1688515290}
   - component: {fileID: 1688515289}
-  - component: {fileID: 1688515288}
   - component: {fileID: 1688515287}
   - component: {fileID: 1688515286}
   - component: {fileID: 1688515285}
@@ -4650,7 +4649,6 @@ MonoBehaviour:
   - {fileID: 1688515291}
   - {fileID: 1688515290}
   - {fileID: 1688515289}
-  - {fileID: 1688515288}
   - {fileID: 1688515287}
   - {fileID: 1688515286}
   - {fileID: 1688515285}
@@ -4742,7 +4740,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1688515189}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1688515287}
   variables: []
   description: 
   stepPause: 0
@@ -6982,24 +6981,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1688515288
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688515186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 87
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!114 &1688515289
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7042,7 +7023,7 @@ MonoBehaviour:
   storyText: But that's not guaranteed, Louise. I wouldn't want to take such a risk;
     these commissions are the best for our family. I worked hard to get us here.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 644110024}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
