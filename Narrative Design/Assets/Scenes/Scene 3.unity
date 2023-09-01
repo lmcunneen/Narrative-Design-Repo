@@ -2012,7 +2012,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1022801124}
   selectedCommands:
-  - {fileID: 1022801193}
+  - {fileID: 1022801191}
   variables: []
   description: 
   stepPause: 0
@@ -3185,8 +3185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: '"In the years since our defeat, the resources and people lost created
-    an upset in our economy-"'
+  storyText: '"In the years since our defeat, riots like the Flour War have shown
+    how callous those brutes are-"'
   description: 
   character: {fileID: 1286302828}
   portrait: {fileID: 0}
@@ -3652,7 +3652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: So you were amidst the whole commotion?
+  storyText: So you were amidst the whole commotion in the Flour War?
   description: 
   character: {fileID: 1286302828}
   portrait: {fileID: 0}
